@@ -1,7 +1,67 @@
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
 *{
     margin: 0;
     padding: 0;
 }
+
+/* the solution part */
+#The-solution{
+    max-width: 1600px;
+}
+#The-solution .soution-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+   
+    gap: 60px;
+    align-items: center;
+   margin-bottom: 120px;
+    
+}
+#The-solution .soution-container .image{
+    max-width: 600px;
+}
+#The-solution .soution-container .solution-info{
+    max-width: 700px;
+  
+}
+#The-solution .soution-container .solution-info h6{
+   font-size: 16px;
+   font-weight: 500px;
+   color: #469165;
+   margin-bottom: 16px;
+}
+
+#The-solution .soution-container .solution-info h2{
+   font-size: 48px;
+   font-weight: bold;
+   color: #001931;
+   margin-bottom: 16px;
+}
+#The-solution .soution-container .solution-info p{
+   font-size: 16px;
+   color: #627382;
+   line-height: 20px;
+   margin-bottom: 40px;
+}
+
+#The-solution .soution-container .solution-info ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500px;
+  color: #001931;
+   margin-bottom: 16px;
+  
+ }
+
+
+
 
 /* Ready access part */
 
@@ -56,7 +116,15 @@ max-width: 1360px;
   font-weight: 700;
   color: #FFFFFF;
   margin-bottom: 16px;
+  cursor: pointer;
 }
+
+#Ready-part .ready-container .ready-button button :hover{
+ background-color: #871134;
+}
+   
+
+
 #Ready-part .ready-container .ready-button  p{
    font-size: 16px;
    color: #627382;
