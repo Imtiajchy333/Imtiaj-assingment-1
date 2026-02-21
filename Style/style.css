@@ -1,5 +1,12 @@
+.
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
 
-.inter{
+
+.inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   
@@ -30,10 +37,16 @@
 #nav .nav-container .nav-feature{
     display: flex;
     gap:32px;
-   font-size: 16px;
-   font-weight: 600;
-    color: #000;
+  
     list-style: none;
+    cursor: pointer;
+   
+}
+#nav .nav-container .nav-feature a{
+    text-decoration: none;
+     font-size: 16px;
+   font-weight: 500;
+    color: #000;
 }
 
 #nav .nav-container  .btn button{
@@ -44,7 +57,7 @@
   border: none;
   border-radius: 4px;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   color: #FFFFFF;
  
   cursor: pointer;
@@ -53,6 +66,8 @@
 #nav .nav-container  .btn :hover{
  background-color: #627382;
 }
+
+
 /* banar part css */
 #banner{
     max-width: 1600px;
@@ -75,7 +90,7 @@
   border: none;
   border-radius: 1000px;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   color: #469165;
   cursor: pointer;
   margin-bottom: 16px;
@@ -145,7 +160,7 @@
    
 }
 #card-box .box-container .box-intro h2{
-       padding-top: 70px;
+       padding-top: 40px;
        text-align: center;
        color: #001931;
        font-size: 48px;
@@ -170,7 +185,7 @@
     background-color: #F7F6F2;
     border: none;
     border-bottom: none;
-  box-shadow: 4px 0 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
     border-radius: 8px;
 }
 
